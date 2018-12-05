@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wolfccbase", "wolfccbase\wolfccbase.vcxproj", "{144BB66E-0DD0-472D-8948-3BAABBBD7E36}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wolfccbase-log", "wolfccbase-log\wolfccbase-log.vcxproj", "{4AA3B9A4-D4FB-49D4-826D-FC54BDFD05C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +17,10 @@ Global
 		{144BB66E-0DD0-472D-8948-3BAABBBD7E36}.Debug|Win32.Build.0 = Debug|Win32
 		{144BB66E-0DD0-472D-8948-3BAABBBD7E36}.Release|Win32.ActiveCfg = Release|Win32
 		{144BB66E-0DD0-472D-8948-3BAABBBD7E36}.Release|Win32.Build.0 = Release|Win32
+		{4AA3B9A4-D4FB-49D4-826D-FC54BDFD05C7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4AA3B9A4-D4FB-49D4-826D-FC54BDFD05C7}.Debug|Win32.Build.0 = Debug|Win32
+		{4AA3B9A4-D4FB-49D4-826D-FC54BDFD05C7}.Release|Win32.ActiveCfg = Release|Win32
+		{4AA3B9A4-D4FB-49D4-826D-FC54BDFD05C7}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
