@@ -400,7 +400,7 @@ bool BaseInitLoggingImpl(const PathChar* new_log_file,
 }
 
 void SetMinLogLevel(int level) {
-  min_log_level = std::min(LOG_ERROR_REPORT, level);
+  min_log_level = (std::min)(LOG_ERROR_REPORT, level);
 }
 
 int GetMinLogLevel() {
@@ -408,7 +408,7 @@ int GetMinLogLevel() {
 }
 
 int GetVlogVerbosity() {
-  return std::max(-1, LOG_INFO - GetMinLogLevel());
+  return (std::max)(-1, LOG_INFO - GetMinLogLevel());
 }
 
 int GetVlogLevelHelper(const char* file, size_t N) {

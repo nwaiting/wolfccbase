@@ -2,20 +2,12 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="src">
-      <UniqueIdentifier>{a946b0c5-2878-4cab-adee-80ea1737a5b2}</UniqueIdentifier>
+      <UniqueIdentifier>{61d91d5f-0edf-401e-9f82-7868e3be8912}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\logging.cc">
+    <ClCompile Include="src\test_logging.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="test_logging.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\logging.h">
-      <Filter>src</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

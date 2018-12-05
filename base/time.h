@@ -250,7 +250,7 @@ class BASE_EXPORT Time {
 
   // Returns true if the time object is the maximum time.
   bool is_max() const {
-    return us_ == std::numeric_limits<int64>::max();
+    return us_ == (std::numeric_limits<int64>::max)();
   }
 
   // Returns the time for epoch in Unix-like system (Jan 1, 1970).
